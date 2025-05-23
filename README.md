@@ -10,9 +10,7 @@ API RESTful para gestão de usuários autenticados via JWT, desenvolvida com .NE
 - [Execução](#🚀-execução)
 - [Testes da API](#🔍-testes-da-api)
 - [Variáveis de Ambiente](#🌱-variáveis-de-ambiente)
-- [Docker](#🐳-docker)
 - [Segurança](#🔒-segurança)
-- [Licença](#📄-licença)
 
 ---
 
