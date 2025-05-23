@@ -1,6 +1,9 @@
-﻿using LoafAPI.Domain.Entities;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using LoafAPI.Domain.Entities;
 using LoafAPI.Domain.Interfaces;
 using LoafAPI.LoafAPI.Application.DTOs;
+using BCrypt.Net;
 
 namespace LoafAPI.Application.Services
 {

@@ -1,4 +1,6 @@
-﻿using LoafAPI.Domain.Entities;
+﻿using System.Collections.Generic; 
+using System.Threading.Tasks;      
+using LoafAPI.Domain.Entities;
 
 namespace LoafAPI.Domain.Interfaces;
 

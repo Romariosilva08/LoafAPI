@@ -21,7 +21,7 @@ namespace LoafAPI.LoafAPI.Infrastructure.Security
         public string GerarToken(Usuario usuario)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret!);
+            var key = Convert.FromBase64String(_jwtSettings.Secret!);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]

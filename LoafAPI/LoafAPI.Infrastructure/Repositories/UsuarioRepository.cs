@@ -8,9 +8,9 @@ namespace LoafAPI.Infrastructure.Repositories;
 
 public class UsuarioRepository : IUsuarioRepository
 {
-    private readonly MeuDbContext _context;
+    private readonly UsuarioLoafDbContext _context;
 
-    public UsuarioRepository(MeuDbContext context)
+    public UsuarioRepository(UsuarioLoafDbContext context)
     {
         _context = context;
     }

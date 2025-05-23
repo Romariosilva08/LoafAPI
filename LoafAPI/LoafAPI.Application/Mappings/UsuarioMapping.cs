@@ -3,7 +3,7 @@ using LoafAPI.LoafAPI.Application.DTOs;
 
 namespace LoafAPI.Application.Mappers
 {
-    public static class UsuarioMapper
+    public static class UsuarioMapping
     {
         public static UsuarioDTO ToDTO(this Usuario usuario) =>
             new UsuarioDTO
